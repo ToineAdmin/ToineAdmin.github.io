@@ -15,8 +15,8 @@ header{
 
 @media (min-width:992px){
     .navbar{
-        background-color: #022780;
-        height: 75px;
+        background-color: #ffffff00;
+        height: 100px;
         width: 100%;
     }
     
@@ -28,15 +28,11 @@ header{
 /* ======== CONTACT ======= */
 
 .contact{
-    background: linear-gradient(#022780, white);
+    background: linear-gradient(#0139a6,#3c7dff ,#0139a6);
 }
 
 .contact-container{
     margin-top : 10vh;
-}
-
-.tel p{
-    font-weight: bold;
 }
 
 .tel a{
@@ -45,12 +41,26 @@ header{
     font-weight: normal;
 }
 
+.contact-form {
+    color: white;
+}
+
+.contact-form .form-text{
+    color:black;
+}
+
 .social-media{
     margin:0 auto;
     text-align: center;
     font-weight: bold;
     width: 100vw;
 }
+
+.social-media p{
+    color:white;
+    font-weight: normal;
+}
+
 .social-icons{
     display:flex;
     justify-content: space-evenly;
@@ -63,7 +73,7 @@ header{
 }
 
 .social-icons .bi-facebook{
-    color: #0b0bee;
+    color: #0b0475;
 }
 
 .social-icons .bi-instagram{
@@ -105,6 +115,46 @@ header{
         height: fit-content;
     }
 
+    .contact-container{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        width:85vw;
+        margin-top:1px;
+    }
+
+    .contact-form form{
+        opacity: 0;
+        padding: 15px 15px 15px 15px;
+        transition: 0.5s ease-out;
+        animation: contactAppeare 1.5s 0.4s ease-out forwards;
+    }
+
+      .contact-container form:hover {
+        -webkit-font-smoothing: subpixel-antialiased;
+        transform: scale(1.05);
+    }
+
+    .tel{
+        opacity: 0;
+        animation: contactAppeare 0.5s  0.8s  ease forwards;
+    }
+
+    .tel .btn {
+        box-shadow: 5px 5px 5px black;
+        transition: 0.5s ease-out;
+        margin-top:1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .social-media{
+        opacity: 0;
+        margin-top: 6rem;
+        margin-left: 1rem;
+        animation: contactAppeare 0.7s 1s ease-out forwards;
+    }
+
     .contact img{
         position:absolute;
         z-index: 0;
@@ -132,51 +182,11 @@ header{
         bottom: 20px;
     }
 }
-@media (min-width:992px){
-    
-    .contact-container{
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        align-items: center;
-        width:85vw;
-        margin-top:1px;
-    }
 
-    .contact-form form{
-        opacity: 0;
-        padding: 15px 15px 15px 15px;
-        object-fit:cover;
-        transform-origin:center;
-        transform:perspective(800px) rotateY(25deg);
-        transition:0.5s ease-out;
-        animation: contactAppeare 1.5s 0.4s ease-out forwards;
-    }
-
-      .contact-container form:hover {
-        transform:perspective(800px) rotateY(0deg);
-        opacity:1;
-    }
-
-    .tel{
-        opacity: 0;
-        animation: contactAppeare 0.5s  0.8s  ease forwards;
-    }
-
-    .tel .btn {
-        box-shadow: 5px 5px 5px black;
-        transition: 0.5s ease-out;
-        margin-top:1rem;
-        margin-bottom: 1rem;
-    }
-    
-    .social-media{
-        opacity: 0;
-        margin-top: 6rem;
-        margin-left: 1rem;
-        animation: contactAppeare 0.7s 1s ease-out forwards;
-    }
+.tel p{
+     color:white;
 }
+
 
 @keyframes contactAppeare {
     from{

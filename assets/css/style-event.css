@@ -23,8 +23,8 @@
 }
 @media (min-width:992px){
     .navbar{
-        background-color: #022780;
-        height: 75px;
+        background-color: #ffffff00;
+        height: 100px;
         width: 100%;
     }
     
@@ -62,12 +62,13 @@
 
 .event .card{
     min-height: 690px;
+    color:white;
     min-width: fit-content;
-    border-radius: 93% 7% 97% 3% / 6% 89% 11% 94% ;
+    border-radius: 93% 7% 97% 3% / 6% 89% 5% 95% ;
     border-top:none;
     border-bottom:none;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-    background: linear-gradient(transparent,#184ECC);
+    background: linear-gradient(#0139a6,#3c7dff ,#0139a6);;
     transition: 0.5s ease-out;
 }
 

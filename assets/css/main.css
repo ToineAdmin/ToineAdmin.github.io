@@ -29,6 +29,8 @@ body{
 h2, h3{
     text-align: center;
     font-family: 'Allerta Stencil', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 @media (min-width: 992px){
@@ -431,17 +433,19 @@ header{
 
 
 /* ======== NUMBER =========== */
+.number{
+    position: relative;
+    background: linear-gradient(#4b83f2,#4b83f23b, #4b83f2);
+}
+
 .number .row1 p{
     text-align: justify;
+    font-weight: bold;
 }
 .percent{
     font-size:3rem;
     color: black;
     font-weight: bold;
-}
-
-.number{
-    position: relative;
 }
 
 .box-container{
@@ -504,10 +508,7 @@ header{
 }
 
 @media (min-width: 992px){
-    .number{
-        background: linear-gradient(#4b83f2,#4b83f23b, #4b83f2);
-    }
-
+    
     .num-divider {
         position: absolute;
         opacity: 1;
@@ -655,10 +656,10 @@ header{
 /* ========== MISSIONS ========*/
 
 .mission{
-    background:linear-gradient(transparent,#0139a6) ;
+    background:linear-gradient(#0139a6,#3c7dff ,#0139a6); ;
     position: relative;
     padding:0;
-    color:black;
+    color:white;
 }
 
 .mission .miss-img img{
@@ -689,6 +690,11 @@ header{
     margin: 0 auto;
     margin-bottom: 2em;
     width: 220px;
+}
+
+.mission .miss-content b{
+    letter-spacing: 2px;
+    color: black;
 }
 
 
