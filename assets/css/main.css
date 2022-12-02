@@ -465,7 +465,7 @@ header{
     align-items: center;
     width: 200px;
     height: 200px;
-    background: linear-gradient(transparent,#184ECC);
+    background: linear-gradient(white,#184ECC);
     border:3px solid rgba(0, 0, 0, 0.5);
     margin-top:0;
     border-radius: 20px;
@@ -699,6 +699,7 @@ header{
 
 
 @media (min-width: 992px){
+    
 
     .mission .row{
         height: 80vh;

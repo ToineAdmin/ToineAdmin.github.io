@@ -93,6 +93,11 @@
     width: 200px;
 }
 
+.bubbles img{
+    visibility: hidden;
+    width: 1px;
+}
+
 
 @media (min-width:992px){
     .event{
@@ -140,6 +145,7 @@
 
     .bubbles img{
         width: 50px;
+        visibility:visible;
         animation: bubble 4s linear infinite;
     }
     .bubbles{
