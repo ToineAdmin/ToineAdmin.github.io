@@ -15,7 +15,7 @@
     align-items: center;
 }
 
-.custom-shape-divider-bottom-1670007981 {
+.event-wave {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -25,7 +25,7 @@
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1670007981 svg {
+.event-wave svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
@@ -33,7 +33,7 @@
     transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1670007981 .shape-fill {
+.event-wave .shape-fill {
     fill: #FFFFFF;
 }
 
