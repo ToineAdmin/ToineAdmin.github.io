@@ -8,10 +8,33 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    position: relative;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.custom-shape-divider-bottom-1670007981 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1670007981 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 39px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1670007981 .shape-fill {
+    fill: #FFFFFF;
 }
 
 
